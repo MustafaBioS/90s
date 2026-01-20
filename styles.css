@@ -1,0 +1,79 @@
+html, body {
+    font-family: "Comic Sans MS";
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(marble.avif);
+}
+
+.welcome {
+    font-size: 35px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    background: linear-gradient(to right,red,orange,yellow,lime,cyan,blue,magenta);
+    color: black;
+}
+
+.viewCount {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 98%;
+    font-size: 20px;
+    margin-top: -25px;
+}
+
+.count {
+    margin-left: 7.5px;
+}
+
+.centerBoxCon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 100px);
+    width: 100%;
+}
+
+.centerBox {
+    height: 500px;
+    width: 650px;
+    background-color: black;
+    border: 2px solid yellowgreen;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.desc {
+    width: 50%;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+
+.earth {
+    height: 175px;
+    position: absolute;
+    transform: translateX(325px);
+}
+
+.egypt {
+    height: 150px;
+    transform: translate(-325px, -100px);
+    position: absolute;
+}
+
+.gif {
+    transition: all 0.3s ease;
+}
+
+.gif:hover {
+    scale: 1.05;
+    cursor: pointer;
+}
